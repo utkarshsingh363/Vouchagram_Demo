@@ -27,7 +27,9 @@ const reducer =(state=initialState,action)=>{
             return {
                 ...state,
                 productList:action.prodData.products,
-                activeCategory:action.activeCategory
+                activeCategory:action.activeCategory,
+                activePage:1,
+                num_pages:action.prodData.num_pages
             }
         case actionTypes.SET_PAGE:
             return {
