@@ -1,0 +1,8 @@
+.app{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    /* background-color: darkseagreen; */
+    min-height: 100vh;
+    background-image: url("https://tshop.pogo91.com/images/pattren2.png");
+}

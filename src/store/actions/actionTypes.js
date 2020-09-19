@@ -1,0 +1,8 @@
+export const FETCH_CATEGORIES='FETCH_CATEGORIES'
+
+export const FETCH_ALL_PRODUCTS='FETCH_ALL_PRODUCTS'
+
+export const SET_CATEGORY='SET_CATEGORY'
+
+export const SET_PAGE='SET_PAGE'
+

@@ -1,0 +1,14 @@
+.product__list{
+    
+}
+
+.product__item__box{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+}
+
+.product__item__box>h2{
+    margin:20px
+}

@@ -1,0 +1,25 @@
+.pagination__box{
+    display: inline-block;
+}
+
+.pagination__box>div{
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+}
+
+.pagination__box>div:hover{
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+
+.active__page{
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}

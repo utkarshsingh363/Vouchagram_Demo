@@ -1,0 +1,23 @@
+.product__listings{
+    display: flex;
+    flex-direction: column;
+}
+
+.ad__box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.ad__box >img{
+    border-radius: 15px;
+    width: 750px;
+    height: 200px;
+    align-items: center;
+}
+
+.pagination__component{
+    display: flex;
+    justify-content: flex-end;
+}

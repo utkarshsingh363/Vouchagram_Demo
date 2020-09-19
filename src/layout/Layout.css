@@ -1,0 +1,43 @@
+.layout{
+    width: 850px;
+    background-color:whitesmoke;
+    position: sticky;
+    border:1px solid black
+}
+
+.layout__head{
+    display: flex;
+    padding: 10px 20px;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    border-bottom: 1px solid black;
+    height: 100px;
+
+}
+
+.layout__head > img{
+    background-size: cover;
+    height: 60px;
+    width: 120px;
+}
+
+.search__icon{
+    display: flex;
+    align-items: center;
+    background-color: lightgray;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.search__icon> input{
+    margin-left: 5px;
+    border:0px;
+    background-color: transparent;
+    outline-width:0;
+}
+
+
+.layout__body{
+    padding: 10px;
+}
