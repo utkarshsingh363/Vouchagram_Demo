@@ -5,7 +5,9 @@
     align-items: center;
     background-color: #172b4d;
     color: white;
-    height: 150px;
+    /* height: 150px; */
+    height: fit-content;
+    min-height: 170px;
     width: 110px;
     padding: 20px;
     margin: 0px 10px;
@@ -20,4 +22,8 @@
 
 .category__card >p{
     margin-top: 5px;
+    /* white-space: nowrap;
+    width: 400px;
+    overflow: hidden;
+    text-overflow: ellipsis; */
 }

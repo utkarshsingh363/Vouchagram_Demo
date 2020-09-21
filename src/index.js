@@ -21,6 +21,14 @@ ReactDOM.render(
       </React.StrictMode>
     </BrowserRouter>
   </Provider>,
+  
+  // <BrowserRouter>
+  //   <Provider context={store}>
+  //     <React.StrictMode>
+  //       <App />
+  //     </React.StrictMode>
+  //     </Provider>
+  // </BrowserRouter>,
   document.getElementById('root')
 );
 
